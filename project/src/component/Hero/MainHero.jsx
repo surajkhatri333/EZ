@@ -1,7 +1,7 @@
 import React from 'react';
 import film from '../../assets/Film.png';
 import heroMandala from '../../assets/EZ Labs Assignment/Hero Mandala.svg';
-import scroll from "../../assets/EZ Labs Assignment/scroll.png";
+import scroll from "../../assets/EZ Labs Assignment/Scroll.png";
 import backgroundImage from "../../assets/HeroBg/BG.png";
 
 function MainHero() {
