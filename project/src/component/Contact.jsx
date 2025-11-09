@@ -72,7 +72,7 @@ function Contact() {
     };
     return (
         <div
-            className="relative w-full h-auto bg-cover bg-center overflow-hidden flex flex-col items-center justify-center px-4"
+            className="relative w-full min-h-screen bg-cover bg-center overflow-hidden flex flex-col items-center justify-center px-4"
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             {/* Top Right Header Image */}

@@ -30,6 +30,7 @@ function App() {
           <Route path='/portfolio' element={<PortFolio />} />
           <Route path='/service' element={<Service />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/aboutUs' element = {<AboutTeam/>} />
         </Routes>
       </BrowserRouter>
 

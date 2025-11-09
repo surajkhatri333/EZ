@@ -89,7 +89,7 @@ function AboutUs() {
     return (
         <>
             <div
-                className="w-full h-auto bg-cover bg-no-repeat flex items-center justify-center  px-4 md:px-10"
+                className="w-full  bg-cover bg-no-repeat flex items-center justify-center  px-4 md:px-10"
                 style={{
                     backgroundImage: `url(${bgImage})`,
                 }}

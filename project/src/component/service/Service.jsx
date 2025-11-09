@@ -12,7 +12,7 @@ import heroBackgroundImage from "../../assets/HeroBg/BG.png"
 function Service() {
     return (
         <>
-            <div className='relative w-full h-100  md:min-h-screen flex flex-col items-center justify-center px-5 '
+            <div className='relative w-full min-h-screen flex flex-col items-center justify-center px-5 '
                 style={{
                     backgroundImage: `url(${heroBackgroundImage})`,
                     backgroundRepeat: 'no-repeat',
