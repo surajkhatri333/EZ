@@ -29,6 +29,7 @@ function App() {
           } />
           <Route path='/portfolio' element={<PortFolio />} />
           <Route path='/service' element={<Service />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
 

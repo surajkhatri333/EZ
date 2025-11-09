@@ -23,6 +23,10 @@ function Navbar() {
         {
             item: "Varnan",
             path: "/varan"
+        },
+        {
+            item  : "Contact",
+            path : "/contact"
         }
     ];
     const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +47,8 @@ function Navbar() {
             <div className='flex'>
                 {/* Center navigation items */}
                 <div>
-                    <ul className="hidden md:flex space-x-8 m-4 text-gray-700 font-medium">
+                    <ul className={`absolute top-18 right-0 bg-transparent text-md  md:static md:flex space-x-8 m-4 text-gray-700 font-medium shadow-none  ${isOpen ? 'opacity-100 visible justify-between' : 'opacity-0 invisible md:opacity-100 md:visible'}`}>
+                   
                         {navItems.map((nav, index) => (
                             <li
                                 key={index}
